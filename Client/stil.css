@@ -1,0 +1,985 @@
+body{
+    background-image: url(pirot.jpg);
+}
+
+.naslovStraniceDrugi
+{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-left:10px;
+}
+
+
+.divLogIn
+{
+    display: flex;
+    margin-top:110px;
+    margin-left:640px;
+    flex-direction: column;
+}
+
+.div1, .div3
+{
+    width:150px;
+
+}
+
+.labIme, .labSifra
+{
+    font-size: 20px;
+    margin-left: 10px;
+    color:whitesmoke;
+}
+
+.btnPrijava
+{
+    margin-left: 10px;
+    width:170px;
+}
+
+.unosIme, .unosSifra
+{
+    margin-left: 10px;
+}
+
+.div2, .div4
+{
+    height:40px;
+}
+
+.btnPrijava
+{
+    height:30px;
+}
+
+.zag1
+{
+    width:12% !important;
+    background-color:rgb(222, 239, 248) !important;
+}
+
+.zag2
+{
+    width: 13% !important;
+    background-color:rgb(222, 239, 248) !important;
+}
+
+.zag3
+{
+    width: 15.8% !important;
+    background-color:rgb(222, 239, 248) !important;
+}
+
+.zag4
+{
+    width: 15.4% !important;
+    background-color:rgb(222, 239, 248) !important;
+}
+
+.zag5
+{
+    width: 15.5% !important;
+    background-color:rgb(222, 239, 248) !important;
+}
+
+.zag6
+{
+    width: 10.9% !important;
+    background-color:rgb(222, 239, 248) !important;
+}
+
+
+
+.glavniDiv
+{
+    width:1305px;
+    height:590px;
+    display: flex;
+    flex-direction: row;
+    margin-left:100px;
+    border-radius: 5px;
+    margin-bottom:67px;
+}
+
+.divZaUnos
+{
+    width:400px;
+    height:570px;
+    background-color:whitesmoke;
+    padding-left: 20px;
+    padding-top:20px;
+    flex-wrap: wrap;
+}
+.divZaPrikaz
+{
+    width:900px;
+    height:590px;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+
+.divPrvi
+{
+    
+    width:400px;
+    height:50px;
+    flex-direction: row;
+}
+
+.divDrugi
+{
+    
+    width:400px;
+    height:50px;
+}
+
+.divTreci
+{
+    
+    width:400px;
+    height:50px;
+}
+
+.divCetvrti
+{
+   
+    width:400px;
+    height:80px;
+}
+
+.divPeti
+{
+   
+    width:400px;
+    height:110px;
+}
+
+.divSesti
+{
+   
+    width:400px;
+    height:110px;
+}
+
+.divSedmi
+{
+    
+    width:400px;
+    height:20px;
+}
+
+.divIzmedju
+{
+    height:30px;
+    
+}
+
+.divOsmi
+{
+    width:400px;
+    height:50px;
+}
+
+.labKategorija
+{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px ;
+    margin-right: 47px;
+}
+
+.labNaziv
+{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px ;
+    margin-right: 87px;
+}
+
+.labAdresa
+{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px ;
+    margin-right: 74px;
+}
+
+.labWebSajt
+{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px ;
+    margin-right: 60px;
+}
+
+.labDobreStrane
+{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px ;
+    margin-right: 20px;
+}
+
+.labLoseStrane
+{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px ;
+    margin-right: 32px;
+}
+
+.labOcena
+{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px ;
+    margin-right: 50px;
+}
+
+.labZaOcene
+{
+    margin-left: 152px;
+
+}
+
+textarea 
+{
+     resize: none;
+     height:90px;
+     width: 200px;
+     border-radius: 5px;
+}
+
+.divZaRB
+{
+    display: inline-block;
+    margin-left: 22px;
+}
+.btnDodajRecenziju
+{
+    height:40px;
+    margin-left: 80px;
+    background-color: rgb(110, 148, 153);
+    border-radius: 5px;
+    color:whitesmoke;
+}
+
+h2
+{
+    color:whitesmoke;
+    margin-left: 100px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btnOdustani
+{
+    margin-left: 30px !important;
+}
+
+
+
+.dugmici
+{
+    margin-left: 50px;
+}
+
+.labDimitrovgrad
+{
+    margin-top:80px;
+}
+
+.unosWebSajt
+{
+    height:55px;
+    margin-left: 12px;
+}
+
+.unosDobreStrane
+{
+    margin-left: 13px;
+}
+
+.unosLoseStrane
+{
+    margin-left: 13px;
+}
+
+table,tr,th,td
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border:2px solid rgb(110, 148, 153);
+    border-collapse: collapse;
+    margin-left:10px;
+    font-size:20px ;
+    font-style:normal;
+}
+
+thead{
+    display: block;
+}
+th
+{
+    width: 800px;
+}
+
+
+
+td
+{
+    height: 50px;
+    border-right:2px solid rgb(110, 148, 153);
+}
+
+
+
+
+.triTackice
+{
+ max-width: 50px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
+
+.idRecenzijeTD
+{
+    width: 10px;
+    display: none;
+}
+
+.kategorijaTD
+{
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100px;
+}
+
+.btnIO
+{
+    height:30px;
+    background-color: rgb(110, 148, 153);
+    border-radius: 5px;
+    color:whitesmoke;
+}
+
+.divI
+{
+    width: 20px;
+    height: 30px;
+    display: inline-block;
+}
+
+.nazivMestaTD
+{
+    max-width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 110px;
+}
+
+.websajtTD
+{
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 130px;
+}
+
+.ocenaTD
+{
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100px;
+}
+
+.dugmiciTD
+{
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 130px;
+}
+
+.dobrestrTD
+{
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 130px;
+}
+
+.losestrTD
+{
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 130px;
+}
+
+table{
+    display: block;
+    width: 870px;
+}
+
+tbody{
+    overflow-y: scroll;
+    overflow-x: auto;
+    display: inline-block;
+    max-height: 400px;
+    background-color: white;
+}
+
+tr
+{
+    background-color: white;
+}
+
+.lblGrad
+{
+    color: whitesmoke;
+}
+
+@media only screen and (min-width: 320px)
+{
+    #glavniDivDimitrovgrad
+    {
+        margin-top: 50px;
+    }
+    .sakrijZaManjeEkrane
+    {
+        display: none;
+    }
+    .glavniDiv
+    {
+        flex-wrap: wrap;
+    }
+    .labDimitrovgrad{
+        margin-top: 600px;
+    }
+    .naslovPD
+    {
+        color: black;
+    }
+    body
+    {
+        background-image: none;
+        background-color: whitesmoke
+    }
+    .naslovStranicePrvi
+    {
+        color: black;
+        margin-top:300px;
+        margin-left:100px;
+    }
+    .divLogIn
+    {
+        margin-top: 500px;
+        margin-left: 300px;
+        width: 350px;
+        height:300px;
+    }
+    .unosIme
+    {
+        height: 40px;
+        width:300px;
+    }
+    .unosSifra
+    {
+        height: 40px;
+        width:300px;
+    }
+    .btnPrijava
+    {
+        width:300px;
+        height: 60px;
+    }
+    .div2, .div4
+    {
+        height:60px;
+    }
+    
+}
+
+@media only screen and (min-width: 414px)
+{
+    body
+    {
+        background-image: none;
+        background-color: whitesmoke
+    }
+    .labDimitrovgrad{
+        margin-top: 600px;
+    }
+    #glavniDivDimitrovgrad
+    {
+        margin-top: 50px;
+    }
+    .naslovPD
+    {
+        color: black;
+    }
+    .glavniDiv
+    {
+        flex-wrap: wrap;
+    }
+    .naslovStranicePrvi
+    {
+        color: black;
+        margin-top:300px;
+        margin-left:100px;
+    }
+    .labIme
+    {
+        color: black;
+    }
+    .labSifra
+    {
+        color: black;
+    }
+    .divLogIn
+    {
+        margin-top: 500px;
+        margin-left: 300px;
+        width: 350px;
+        height:300px;
+    }
+    .unosIme
+    {
+        height: 40px;
+        width:300px;
+    }
+    .unosSifra
+    {
+        height: 40px;
+        width:300px;
+    }
+    .btnPrijava
+    {
+        width:300px;
+        height: 60px;
+    }
+    .div2, .div4
+    {
+        height:60px;
+        width: 320px;
+    }
+}
+
+@media only screen and (min-width: 640px)
+{
+    body
+    {
+        background-image: none;
+        background-color: whitesmoke
+    }
+    #glavniDivDimitrovgrad
+    {
+        margin-top: 50px;
+    }
+    .labDimitrovgrad{
+        margin-top: 600px;
+    }
+    .naslovPD
+    {
+        color: black;
+    }
+    .glavniDiv
+    {
+        flex-wrap: wrap;
+    }
+    .naslovStranicePrvi
+    {
+        color: black;
+        margin-top:300px;
+        margin-left:100px;
+    }
+    .labIme
+    {
+        color: black;
+    }
+    .labSifra
+    {
+        color: black;
+    }
+    .divLogIn
+    {
+        margin-top: 500px;
+        margin-left: 300px;
+        width: 350px;
+        height:300px;
+    }
+    .unosIme
+    {
+        height: 40px;
+        width:300px;
+    }
+    .unosSifra
+    {
+        height: 40px;
+        width:300px;
+    }
+    .btnPrijava
+    {
+        width:300px;
+        height: 60px;
+    }
+    .div2, .div4
+    {
+        height:60px;
+        width: 320px;
+    }
+
+}
+@media only screen and (min-width: 800px)
+{
+    body
+    {
+        background-image: none;
+        background-color: whitesmoke
+    }
+    .labDimitrovgrad{
+        margin-top: 600px;
+    }
+    #glavniDivDimitrovgrad
+    {
+        margin-top: 50px;
+    }
+    .naslovPD
+    {
+        color: black;
+    }
+    .glavniDiv
+    {
+        flex-wrap: wrap;
+    }
+    .naslovStranicePrvi
+    {
+        color: black;
+        margin-top:300px;
+        margin-left:100px;
+    }
+    .labIme
+    {
+        color: black;
+    }
+    .labSifra
+    {
+        color: black;
+    }
+    .divLogIn
+    {
+        margin-top: 500px;
+        margin-left: 300px;
+        width: 350px;
+        height:300px;
+        
+    }
+    .unosIme
+    {
+        height: 40px;
+        width:300px;
+    }
+    .unosSifra
+    {
+        height: 40px;
+        width:300px;
+    }
+    .btnPrijava
+    {
+        width:300px;
+        height: 60px;
+    }
+    .div2, .div4
+    {
+        height:60px;
+        width: 320px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 1280px)
+{
+    body{
+        background-image: url(pirot.jpg);
+    }
+    #glavniDivDimitrovgrad
+    {
+        margin-top: 0px;
+    }
+    .labDimitrovgrad{
+        margin-top:80px;
+    }
+    .naslovPD
+    {
+        color: white;
+    }
+    .glavniDiv
+    {
+        flex-wrap: nowrap;
+    }
+    .naslovStranicePrvi
+    {
+        color:whitesmoke;
+        font-family:Arial, Helvetica, sans-serif;
+        display: flex;
+        margin-left:400px;
+        margin-top: 0px;
+    }
+    .labIme
+    {
+        color: whitesmoke;
+    }
+    .labSifra
+    {
+        color:whitesmoke;
+    }
+    .divLogIn
+    {
+        margin-left:640px;
+        width: 200px;
+        height:200px;
+        margin-top:110px;
+    }
+    .unosIme
+    {
+        height: 18px;
+        width:170px;
+    }
+    .unosSifra
+    {
+        height: 18px;
+        width:170px;
+    }
+    .btnPrijava
+    {
+        height: 30px;
+        width:178px;
+    }
+    .div2, .div4
+    {
+        height:40px;
+      
+    }
+}
+
+@media only screen and (min-width: 1366px)
+{
+    body{
+        background-image: url(pirot.jpg);
+    }
+    #glavniDivDimitrovgrad
+    {
+        margin-top: 0px;
+    }
+    .labDimitrovgrad{
+        margin-top:80px;
+    }
+    .naslovPD
+    {
+        color: white;
+    }
+    .glavniDiv
+    {
+        flex-wrap: nowrap;
+    }
+    .naslovStranicePrvi
+    {
+        color:whitesmoke;
+        font-family:Arial, Helvetica, sans-serif;
+        display: flex;
+        margin-left:400px;
+        margin-top: 0px;
+    }
+    .labIme
+    {
+        color: whitesmoke;
+    }
+    .labSifra
+    {
+        color:whitesmoke;
+    }
+    .divLogIn
+    {
+        margin-left:640px;
+        width: 200px;
+        height:200px;
+        margin-top:110px;
+    }
+    .unosIme
+    {
+        height: 18px;
+        width:170px;
+    }
+    .unosSifra
+    {
+        height:18px;
+        width:170px;
+    }
+    .btnPrijava
+    {
+        height: 30px;
+        width:178px;
+    }
+    .div2, .div4
+    {
+        height:40px;
+    }
+}
+
+@media only screen and (min-width: 1440px)
+{
+    body{
+        background-image: url(pirot.jpg);
+    }
+    #glavniDivDimitrovgrad
+    {
+        margin-top: 0px;
+    }
+    .labDimitrovgrad{
+        margin-top:80px;
+    }
+    .naslovPD
+    {
+        color: white;
+    }
+    .glavniDiv
+    {
+        flex-wrap: nowrap;
+    }
+    .naslovStranicePrvi
+    {
+        color:whitesmoke;
+        font-family:Arial, Helvetica, sans-serif;
+        display: flex;
+        margin-left:400px;
+        margin-top: 0px;
+    }
+    .labIme
+    {
+        color: whitesmoke;
+    }
+    .labSifra
+    {
+        color:whitesmoke;
+    }
+    .divLogIn
+    {
+        margin-left:640px;
+        width: 200px;
+        height:200px;
+        margin-top:110px;
+    }
+    .unosIme
+    {
+        height:18px;
+        width:170px;
+    }
+    .unosSifra
+    {
+        height:18px;
+        width:170px;
+    }
+    .btnPrijava
+    {
+        height: 30px;
+        width:178px;
+    }
+    .div2, .div4
+    {
+        height:40px;
+    }
+}
+
+
+@media only screen and (min-width: 1680px)  
+{
+    body{
+        background-image: none;
+        background-color: rgb(62, 129, 123);
+    }
+    #glavniDivDimitrovgrad
+    {
+        margin-top: 0px;
+    }
+    .labDimitrovgrad{
+        margin-top:80px;
+    }
+    .naslovPD
+    {
+        color: white;
+    }
+    .glavniDiv
+    {
+        flex-wrap: nowrap;
+    }
+    .naslovStranicePrvi
+    {
+        color:whitesmoke;
+        font-family:Arial, Helvetica, sans-serif;
+        display: flex;
+        margin-left:400px;
+        margin-top: 0px;
+    }
+    .labIme
+    {
+        color: whitesmoke;
+    }
+    .labSifra
+    {
+        color:whitesmoke;
+    }
+    .divLogIn
+    {
+        margin-left:640px;
+        width: 200px;
+        height:200px;
+        margin-top:110px;
+    }
+    .unosIme
+    {
+        height: 18px;
+        width:170px;
+    }
+    .unosSifra
+    {
+        height: 18px;
+        width:170px;
+    }
+    .btnPrijava
+    {
+        height: 30px;
+        width:178px;
+    }
+    .div2, .div4
+    {
+        height:40px;
+    }
+   
+}
+
+
+
+.btnOdjaviSe
+{
+    margin-top: 0px;
+    margin-left:1400px;
+    height:30px;
+    background-color: rgb(110, 148, 153);
+    border-radius: 5px;
+    color:whitesmoke;
+}
